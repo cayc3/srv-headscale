@@ -1,0 +1,11 @@
+# vim: set syntax=yaml ts=2 sw=2 sts=2 et :
+#
+# coder: b0b
+# stamp: 1999-12-31
+
+base:
+  'dom0':
+    - config.srv-headscale-dvm
+    - config.srv-headscale
+  'srv-headscale-template':
+    - config.srv-headscale-template-config
